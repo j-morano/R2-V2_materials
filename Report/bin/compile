@@ -1,0 +1,4 @@
+#!/bin/sh
+
+latexmk -pdf main.tex
+latexmk -c

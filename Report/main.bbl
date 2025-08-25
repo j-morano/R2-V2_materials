@@ -1,0 +1,788 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{morano2024rrwnet}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=11f61f07ae6c94bf55c4b8f309962d9d}{%
+           family={Morano},
+           familyi={M\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f1d919b1a9425214752b8916ee7bbce7}{%
+           family={Aresta},
+           familyi={A\bibinitperiod},
+           given={Guilherme},
+           giveni={G\bibinitperiod}}}%
+        {{hash=17ac420723c6365a667708aa7c7270d5}{%
+           family={Bogunović},
+           familyi={B\bibinitperiod},
+           given={Hrvoje},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{26205e56dca6e33d3ab2fedea38e2c4c}
+      \strng{fullhash}{4c9442aa3002a7c733b9c018d6421509}
+      \strng{fullhashraw}{4c9442aa3002a7c733b9c018d6421509}
+      \strng{bibnamehash}{4c9442aa3002a7c733b9c018d6421509}
+      \strng{authorbibnamehash}{4c9442aa3002a7c733b9c018d6421509}
+      \strng{authornamehash}{26205e56dca6e33d3ab2fedea38e2c4c}
+      \strng{authorfullhash}{4c9442aa3002a7c733b9c018d6421509}
+      \strng{authorfullhashraw}{4c9442aa3002a7c733b9c018d6421509}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0957-4174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{title}{{RRWNet}: {R}ecursive {R}efinement {N}etwork for effective retinal artery/vein segmentation and classification}
+      \field{volume}{256}
+      \field{year}{2024}
+      \field{pages}{124970}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.eswa.2024.124970
+      \endverb
+    \endentry
+    \entry{ronneberger2015unet}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=8e46da9de9e53ea5d37089897d69cdd9}{%
+           family={Ronneberger},
+           familyi={R\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+        {{hash=168e84ce3582cbc6bac5e2ebc3ef8442}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b452a32296958371572717940f900884}{%
+           family={Brox},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=c107bbd317cd780c2aa7006dbe61d83f}{%
+           family={Navab},
+           familyi={N\bibinitperiod},
+           given={Nassir},
+           giveni={N\bibinitperiod}}}%
+        {{hash=13dfdbfc375d5ae886268dec73d8d8f9}{%
+           family={Hornegger},
+           familyi={H\bibinitperiod},
+           given={Joachim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4d166f6210ae1792f8f90d7871b4d234}{%
+           family={Wells},
+           familyi={W\bibinitperiod},
+           given={William\bibnamedelima M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2413defb142650e8edf0bcd5608ab789}{%
+           family={Frangi},
+           familyi={F\bibinitperiod},
+           given={Alejandro\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{9a497128db448eba9bbb6e27b1ed57ed}
+      \strng{fullhash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{fullhashraw}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{bibnamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authorbibnamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authornamehash}{9a497128db448eba9bbb6e27b1ed57ed}
+      \strng{authorfullhash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authorfullhashraw}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{editorbibnamehash}{33938a515d73fb8b00fd2bd7509d5e86}
+      \strng{editornamehash}{7d63d752dc1fd3abad4ee5f250821c1c}
+      \strng{editorfullhash}{33938a515d73fb8b00fd2bd7509d5e86}
+      \strng{editorfullhashraw}{33938a515d73fb8b00fd2bd7509d5e86}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Medical Image Computing and Computer-Assisted Intervention -- MICCAI 2015}
+      \field{isbn}{978-3-319-24574-4}
+      \field{title}{{U-Net}: Convolutional Networks for Biomedical Image Segmentation}
+      \field{year}{2015}
+      \field{pages}{234\bibrangedash 241}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/978-3-319-24574-4_28
+      \endverb
+    \endentry
+    \entry{hu2013rite}{inbook}{}{}
+      \name{author}{3}{}{%
+        {{hash=9d712d209678141e6630aec9c5bc583a}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Qiao},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=a3f8b7e8d677f448d6f75440e5fe4139}{%
+           family={Abràmoff},
+           familyi={A\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=7062724b2f996382b811de766a48ccd6}{%
+           family={Garvin},
+           familyi={G\bibinitperiod},
+           given={Mona\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{f591ab560ef667799e9cd73fd41b150f}
+      \strng{fullhash}{e863b4ca1c52e7cd0f7979b97242df5d}
+      \strng{fullhashraw}{e863b4ca1c52e7cd0f7979b97242df5d}
+      \strng{bibnamehash}{e863b4ca1c52e7cd0f7979b97242df5d}
+      \strng{authorbibnamehash}{e863b4ca1c52e7cd0f7979b97242df5d}
+      \strng{authornamehash}{f591ab560ef667799e9cd73fd41b150f}
+      \strng{authorfullhash}{e863b4ca1c52e7cd0f7979b97242df5d}
+      \strng{authorfullhashraw}{e863b4ca1c52e7cd0f7979b97242df5d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advanced Information Systems Engineering}
+      \field{isbn}{9783642387098}
+      \field{issn}{1611-3349}
+      \field{title}{Automated Separation of Binary Overlapping Trees in Low-Contrast Color Retinal Images}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{436\bibrangedash 443}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/978-3-642-40763-5_54
+      \endverb
+      \verb{urlraw}
+      \verb https://eye.medicine.uiowa.edu/rite-dataset
+      \endverb
+      \verb{url}
+      \verb https://eye.medicine.uiowa.edu/rite-dataset
+      \endverb
+    \endentry
+    \entry{staal2004ridge}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=9cda52c2eac9ca50f6d7ec2bcbcff678}{%
+           family={Staal},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bd7a840c677e1a1a014cf724e9b09973}{%
+           family={Abramoff},
+           familyi={A\bibinitperiod},
+           given={M.D.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1aed803831357b88002a1634848d1488}{%
+           family={Niemeijer},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=406a48c223a23b956dc1194058e6b5ee}{%
+           family={Viergever},
+           familyi={V\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=424676f3670514c0e40f02e1be780f27}{%
+           family={Ginneken},
+           familyi={G\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers (IEEE)}%
+      }
+      \strng{namehash}{bcdb8c6facc0579ce4aeef0ea2eabec9}
+      \strng{fullhash}{6ab20bd589a358c41c3bcf4ca90890db}
+      \strng{fullhashraw}{6ab20bd589a358c41c3bcf4ca90890db}
+      \strng{bibnamehash}{6ab20bd589a358c41c3bcf4ca90890db}
+      \strng{authorbibnamehash}{6ab20bd589a358c41c3bcf4ca90890db}
+      \strng{authornamehash}{bcdb8c6facc0579ce4aeef0ea2eabec9}
+      \strng{authorfullhash}{6ab20bd589a358c41c3bcf4ca90890db}
+      \strng{authorfullhashraw}{6ab20bd589a358c41c3bcf4ca90890db}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0278-0062}
+      \field{journaltitle}{IEEE Transactions on Medical Imaging}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Ridge-Based Vessel Segmentation in Color Images of the Retina}
+      \field{volume}{23}
+      \field{year}{2004}
+      \field{pages}{501\bibrangedash 509}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/tmi.2004.825627
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1109/TMI.2004.825627
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1109/TMI.2004.825627
+      \endverb
+    \endentry
+    \entry{budai2013robust}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=0bd06a1e1b3d0c19eadfd5407f4fb48a}{%
+           family={Budai},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0b75eb1c1faf0174437e5869d7b8f321}{%
+           family={Bock},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6c9cb602e0ba2fbbea631b113dea0e0b}{%
+           family={Maier},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=281dbb947f607a379e4f2af4fe5af246}{%
+           family={Hornegger},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=05cba8dcaf0ac124bebf627915605015}{%
+           family={Michelson},
+           familyi={M\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hindawi Limited}%
+      }
+      \strng{namehash}{97ca5f4a301b9c8c29f5b543c2493a83}
+      \strng{fullhash}{967df0c456cef8b7383e65d3734daed2}
+      \strng{fullhashraw}{967df0c456cef8b7383e65d3734daed2}
+      \strng{bibnamehash}{967df0c456cef8b7383e65d3734daed2}
+      \strng{authorbibnamehash}{967df0c456cef8b7383e65d3734daed2}
+      \strng{authornamehash}{97ca5f4a301b9c8c29f5b543c2493a83}
+      \strng{authorfullhash}{967df0c456cef8b7383e65d3734daed2}
+      \strng{authorfullhashraw}{967df0c456cef8b7383e65d3734daed2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1687-4196}
+      \field{journaltitle}{International Journal of Biomedical Imaging}
+      \field{title}{Robust Vessel Segmentation in Fundus Images}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{2013}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1155/2013/154860
+      \endverb
+      \verb{urlraw}
+      \verb https://www5.cs.fau.de/research/data/fundus-images/
+      \endverb
+      \verb{url}
+      \verb https://www5.cs.fau.de/research/data/fundus-images/
+      \endverb
+    \endentry
+    \entry{chen2022twgan}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=ce1d62ac46fdc6508e571f534247f42c}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wenting},
+           giveni={W\bibinitperiod}}}%
+        {{hash=bc0fbab980c022468f073d8d815947d8}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Shuang},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3df39f88e0c7df3e7c8775e180006d4e}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c1447b3ead7fa8f45ce1170480e4a4a2}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=9887d194206c14c97a00818bd139902b}{%
+           family={Bian},
+           familyi={B\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cc5b9ac0abf8826c9f7a42f69e0412be}{%
+           family={Chu},
+           familyi={C\bibinitperiod},
+           given={Chunyan},
+           giveni={C\bibinitperiod}}}%
+        {{hash=863145bf5ca71f0a4e72d506ac7a1b65}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Linlin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=828d9baf956fa25bba9fb1a2dc3ab299}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Yefeng},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{43fc023eba1bc50df03bd10ecad952e2}
+      \strng{fullhash}{aaf75ea8be14f44588756f85d07ad62d}
+      \strng{fullhashraw}{aaf75ea8be14f44588756f85d07ad62d}
+      \strng{bibnamehash}{43fc023eba1bc50df03bd10ecad952e2}
+      \strng{authorbibnamehash}{43fc023eba1bc50df03bd10ecad952e2}
+      \strng{authornamehash}{43fc023eba1bc50df03bd10ecad952e2}
+      \strng{authorfullhash}{aaf75ea8be14f44588756f85d07ad62d}
+      \strng{authorfullhashraw}{aaf75ea8be14f44588756f85d07ad62d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1361-8415}
+      \field{journaltitle}{Medical Image Analysis}
+      \field{month}{4}
+      \field{title}{{TW-GAN}: Topology and width aware {GAN} for retinal artery/vein classification}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{77}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{102340}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.media.2021.102340
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/o0t1ng0o/TW-GAN
+      \endverb
+      \verb{url}
+      \verb https://github.com/o0t1ng0o/TW-GAN
+      \endverb
+    \endentry
+    \entry{orlando2018lesav}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=aacd37b900708cee713219478a7202c9}{%
+           family={Orlando},
+           familyi={O\bibinitperiod},
+           given={José\bibnamedelima Ignacio},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=e37d0cad763074e59b69be8c4728c5a9}{%
+           family={Barbosa\bibnamedelima Breda},
+           familyi={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={João},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ce15859892248e587bc5318b64a23285}{%
+           family={Keer},
+           familyi={K\bibinitperiod},
+           given={Karel},
+           giveni={K\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=3f2f7238bf44e1a8e4fa33f9907ec94c}{%
+           family={Blaschko},
+           familyi={B\bibinitperiod},
+           given={Matthew\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=414b88408d184df94563894ad95e1d1c}{%
+           family={Blanco},
+           familyi={B\bibinitperiod},
+           given={Pablo\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=bbb2e984b4da3b4d9d3c749f44410980}{%
+           family={Bulant},
+           familyi={B\bibinitperiod},
+           given={Carlos\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=2413defb142650e8edf0bcd5608ab789}{%
+           family={Frangi},
+           familyi={F\bibinitperiod},
+           given={Alejandro\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=5453a61ff8b92c0abf2be4ab6013c641}{%
+           family={Schnabel},
+           familyi={S\bibinitperiod},
+           given={Julia\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9b3e5f4bb3bd53806daf0873ab42c7b7}{%
+           family={Davatzikos},
+           familyi={D\bibinitperiod},
+           given={Christos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8e56e2b9fed37acfcb8511126e938492}{%
+           family={Alberola-López},
+           familyi={A\bibinithyphendelim L\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a294f1df23750035bfc2492b17ff1d60}{%
+           family={Fichtinger},
+           familyi={F\bibinitperiod},
+           given={Gabor},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{824c94d5238ba4ab102b95fef710d93c}
+      \strng{fullhash}{c0d480559f2f02cd8f73cf550d20bf65}
+      \strng{fullhashraw}{c0d480559f2f02cd8f73cf550d20bf65}
+      \strng{bibnamehash}{c0d480559f2f02cd8f73cf550d20bf65}
+      \strng{authorbibnamehash}{c0d480559f2f02cd8f73cf550d20bf65}
+      \strng{authornamehash}{824c94d5238ba4ab102b95fef710d93c}
+      \strng{authorfullhash}{c0d480559f2f02cd8f73cf550d20bf65}
+      \strng{authorfullhashraw}{c0d480559f2f02cd8f73cf550d20bf65}
+      \strng{editorbibnamehash}{4f275bfe17826c74fc26e4f297b10d26}
+      \strng{editornamehash}{18b3f694259f08f7fd2048c63a39bab3}
+      \strng{editorfullhash}{4f275bfe17826c74fc26e4f297b10d26}
+      \strng{editorfullhashraw}{4f275bfe17826c74fc26e4f297b10d26}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Medical Image Computing and Computer Assisted Intervention -- MICCAI 2018}
+      \field{title}{Towards a Glaucoma Risk Index Based on Simulated Hemodynamics from Fundus Images}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{65\bibrangedash 73}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/978-3-030-00934-2_8
+      \endverb
+      \verb{urlraw}
+      \verb https://figshare.com/articles/dataset/LES-AV_dataset/11857698
+      \endverb
+      \verb{url}
+      \verb https://figshare.com/articles/dataset/LES-AV_dataset/11857698
+      \endverb
+    \endentry
+    \entry{deng2025fundusavseg}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=b173250813a357d7f5d32b5c22b277dc}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Zhuo},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=26bb3d3f20a80aa962ee27023e0a5198}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Weihao},
+           giveni={W\bibinitperiod}}}%
+        {{hash=53522ae5afc213bce5e8558120e6ed3f}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=4fc8294b7f4fd0241989368044b9fd8a}{%
+           family={Gan},
+           familyi={G\bibinitperiod},
+           given={Run},
+           giveni={R\bibinitperiod}}}%
+        {{hash=54a3c319195500d522f4318c883d3e82}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod}}}%
+        {{hash=de36f61c608e16c57b6e2b4d4136b9fa}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shaochong},
+           giveni={S\bibinitperiod}}}%
+        {{hash=da5c3298d379033aecb0ebf1c5562cf9}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Lan},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{fb969f63dad54e055461528701035d60}
+      \strng{fullhash}{aa15c39dd4b3e2279cb987c1bcbc6f32}
+      \strng{fullhashraw}{aa15c39dd4b3e2279cb987c1bcbc6f32}
+      \strng{bibnamehash}{fb969f63dad54e055461528701035d60}
+      \strng{authorbibnamehash}{fb969f63dad54e055461528701035d60}
+      \strng{authornamehash}{fb969f63dad54e055461528701035d60}
+      \strng{authorfullhash}{aa15c39dd4b3e2279cb987c1bcbc6f32}
+      \strng{authorfullhashraw}{aa15c39dd4b3e2279cb987c1bcbc6f32}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2052-4463}
+      \field{journaltitle}{Scientific Data}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{A Fundus Image Dataset for {AI}-based Artery-Vein Vessel Segmentation}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1038/s41597-025-05381-2
+      \endverb
+      \verb{urlraw}
+      \verb https://figshare.com/articles/dataset/Fundus-AVSeg/27938034
+      \endverb
+      \verb{url}
+      \verb https://figshare.com/articles/dataset/Fundus-AVSeg/27938034
+      \endverb
+    \endentry
+    \entry{afio2020}{data}{}{}
+      \name{author}{1}{}{%
+        {{hash=e970ef80506e19e504aaf97c3af98c78}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={Taimur},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Mendeley}%
+      }
+      \strng{namehash}{e970ef80506e19e504aaf97c3af98c78}
+      \strng{fullhash}{e970ef80506e19e504aaf97c3af98c78}
+      \strng{fullhashraw}{e970ef80506e19e504aaf97c3af98c78}
+      \strng{bibnamehash}{e970ef80506e19e504aaf97c3af98c78}
+      \strng{authorbibnamehash}{e970ef80506e19e504aaf97c3af98c78}
+      \strng{authornamehash}{e970ef80506e19e504aaf97c3af98c78}
+      \strng{authorfullhash}{e970ef80506e19e504aaf97c3af98c78}
+      \strng{authorfullhashraw}{e970ef80506e19e504aaf97c3af98c78}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Data on Fundus Images for Vessels Segmentation, Detection of Hypertensive Retinopathy, Diabetic Retinopathy and Papilledema}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.17632/3CSR652P9Y.2
+      \endverb
+      \verb{urlraw}
+      \verb https://data.mendeley.com/datasets/3csr652p9y/2
+      \endverb
+      \verb{url}
+      \verb https://data.mendeley.com/datasets/3csr652p9y/2
+      \endverb
+      \keyw{Retina,Hypertensive Retinopathy,Diabetic Retinopathy,Fundus Imaging}
+    \endentry
+    \entry{dualmodal2019}{data}{}{}
+      \name{author}{3}{}{%
+        {{hash=b1990f8991ed04ccdc34b01dae097cc8}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shulin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3eb401cf5f155a9cec0b71ae34fc395a}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=df4e93d52e78f34f1b9d2ec1a115559d}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Mingzhai},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Dataport}%
+      }
+      \strng{namehash}{1fd296b9015f30531e4e614c42389262}
+      \strng{fullhash}{49004f9fa9904a5ad7c470c5013175ef}
+      \strng{fullhashraw}{49004f9fa9904a5ad7c470c5013175ef}
+      \strng{bibnamehash}{49004f9fa9904a5ad7c470c5013175ef}
+      \strng{authorbibnamehash}{49004f9fa9904a5ad7c470c5013175ef}
+      \strng{authornamehash}{1fd296b9015f30531e4e614c42389262}
+      \strng{authorfullhash}{49004f9fa9904a5ad7c470c5013175ef}
+      \strng{authorfullhashraw}{49004f9fa9904a5ad7c470c5013175ef}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DualModal2019 dataset}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.21227/wbpy-mf57
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.21227/wbpy-mf57
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.21227/wbpy-mf57
+      \endverb
+    \endentry
+    \entry{morano2021simultaneous}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=11f61f07ae6c94bf55c4b8f309962d9d}{%
+           family={Morano},
+           familyi={M\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a1966af1f29f03125bbca67b7311c5bb}{%
+           family={Hervella},
+           familyi={H\bibinitperiod},
+           given={Álvaro\bibnamedelima S.},
+           giveni={Á\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=21051c8d8b94d525c6245bbcdeb8ad2a}{%
+           family={Novo},
+           familyi={N\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+        {{hash=829f352b963327533a704adce4c6d64e}{%
+           family={Rouco},
+           familyi={R\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{26205e56dca6e33d3ab2fedea38e2c4c}
+      \strng{fullhash}{1d554207c9b53d6ac43d1fe1f369e755}
+      \strng{fullhashraw}{1d554207c9b53d6ac43d1fe1f369e755}
+      \strng{bibnamehash}{1d554207c9b53d6ac43d1fe1f369e755}
+      \strng{authorbibnamehash}{1d554207c9b53d6ac43d1fe1f369e755}
+      \strng{authornamehash}{26205e56dca6e33d3ab2fedea38e2c4c}
+      \strng{authorfullhash}{1d554207c9b53d6ac43d1fe1f369e755}
+      \strng{authorfullhashraw}{1d554207c9b53d6ac43d1fe1f369e755}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0933-3657}
+      \field{journaltitle}{Artificial Intelligence in Medicine}
+      \field{month}{8}
+      \field{title}{Simultaneous segmentation and classification of the retinal arteries and veins from color fundus images}
+      \field{volume}{118}
+      \field{year}{2021}
+      \field{pages}{102116}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.artmed.2021.102116
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.artmed.2021.102116
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.artmed.2021.102116
+      \endverb
+    \endentry
+    \entry{zuiderveld1994clahe}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{hash=88db797e45b389f35fdcfbcc37923623}{%
+           family={Zuiderveld},
+           familyi={Z\bibinitperiod},
+           given={Karel},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press Professional, Inc.}%
+      }
+      \strng{namehash}{88db797e45b389f35fdcfbcc37923623}
+      \strng{fullhash}{88db797e45b389f35fdcfbcc37923623}
+      \strng{fullhashraw}{88db797e45b389f35fdcfbcc37923623}
+      \strng{bibnamehash}{88db797e45b389f35fdcfbcc37923623}
+      \strng{authorbibnamehash}{88db797e45b389f35fdcfbcc37923623}
+      \strng{authornamehash}{88db797e45b389f35fdcfbcc37923623}
+      \strng{authorfullhash}{88db797e45b389f35fdcfbcc37923623}
+      \strng{authorfullhashraw}{88db797e45b389f35fdcfbcc37923623}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Graphics Gems IV}
+      \field{isbn}{0123361559}
+      \field{title}{Contrast limited adaptive histogram equalization}
+      \field{year}{1994}
+      \field{pages}{474\bibrangedash 485}
+      \range{pages}{12}
+    \endentry
+    \entry{kingma2015adam}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=b6fbd171848aad4edf3925543f1f1522}{%
+           family={Kingma},
+           familyi={K\bibinitperiod},
+           given={Diederik\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=8aa66e8231cc2fdbe67aa4f18ca970c6}{%
+           family={Ba},
+           familyi={B\bibinitperiod},
+           given={Jimmy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{fullhash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{fullhashraw}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{bibnamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authorbibnamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authornamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authorfullhash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authorfullhashraw}{a09df9f123146b8e2c7f1134c9496932}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{3rd International Conference on Learning Representations -- ICLR 2015}
+      \field{title}{Adam: A method for stochastic optimization}
+      \field{year}{2015}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
