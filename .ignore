@@ -1,1 +1,5 @@
 predictions/
+GAVE_*/
+*.zip
+*.pth
+*.pdf

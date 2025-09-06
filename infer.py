@@ -42,7 +42,13 @@ def get_models_prediction(model, tensor: Tensor) -> Tensor:
     return pred
 
 
-def get_predictions(model, tensor: Tensor, mask_tensor: Tensor, test_aug: bool = True, model_type: str = 'av') -> Tensor:
+def get_predictions(
+    model,
+    tensor: Tensor,
+    mask_tensor: Tensor,
+    model_type: str,
+    test_aug: bool = True,
+) -> Tensor:
     original_tensor = tensor.clone()
     if original_tensor.shape[1] > 3:
         or_img_disp = torch.concat([original_tensor[0, :3], original_tensor[0, 3:]], dim=1)
@@ -97,6 +103,7 @@ def get_predictions(model, tensor: Tensor, mask_tensor: Tensor, test_aug: bool =
         # NOTE: max returns (values, indices), so we take values
         #  with [0].
         if model_type == 'bv':
+            print('  Using bv specific combination')
             a_uni = torch.mean(a, dim=1, keepdim=True)
             v_uni = torch.mean(v, dim=1, keepdim=True)
             av = (a + v).clamp(min=0, max=1)
@@ -114,6 +121,7 @@ def get_predictions(model, tensor: Tensor, mask_tensor: Tensor, test_aug: bool =
         #     v_uni = torch.median(v, dim=1, keepdim=True).values
         #     bv_uni = torch.median(bv, dim=1, keepdim=True).values
         else:
+            print('  Using simple mean combination')
             a_uni = torch.mean(a, dim=1, keepdim=True)
             v_uni = torch.mean(v, dim=1, keepdim=True)
             bv_uni = torch.mean(bv, dim=1, keepdim=True)
@@ -162,17 +170,19 @@ def main(parser):
     parser.add_argument('-i', '--images_path', type=str, required=True)
     parser.add_argument('-m', '--masks_path', type=str)
     parser.add_argument('-c', '--cfps_path', type=str, default=None)
+    parser.add_argument('-r', '--run', type=str, required=True)
     args = parser.parse_args()
 
-    save_path = Path('./predictions')
+    save_path = Path('./__predictions') / args.run
     if args.model_type != 'avr':
         save_path = save_path / args.model_type
-    save_path.mkdir(exist_ok=True)
+    save_path.mkdir(exist_ok=True, parents=True)
     use_cfp = args.model_type == 'bv'
     # test_aug = args.model_type == 'bv'
     test_aug = True
 
     images_path, masks_path, cfps_path = get_paths(args, use_cfp)
+    print('Paths:', images_path, masks_path, cfps_path)
 
     if args.model_type == 'avr':
         save_path_avr = save_path / 'Task3'
@@ -188,11 +198,11 @@ def main(parser):
         print(f'AVR values saved in {avr_file}')
         exit(0)
 
-    print('Loading model')
-    checkpoint = torch.load(f'{args.model_type}.pth')
+    print(f'Loading model: {args.model_type}')
+    checkpoint = torch.load(f'__weights/{args.model_type}.pth')
 
     print('Loading config')
-    with open(f'{args.model_type}_config.json', 'r') as f:
+    with open(f'__weights/{args.model_type}_config.json', 'r') as f:
         config = json.load(f)
 
     print('Config:')
@@ -261,7 +271,13 @@ def main(parser):
             tensor = tensor.unsqueeze(0)
             mask_tensor = mask_tensor.unsqueeze(0)
             with torch.no_grad():
-                pred = get_predictions(model, tensor, mask_tensor, test_aug=test_aug)
+                pred = get_predictions(
+                    model,
+                    tensor,
+                    mask_tensor,
+                    model_type=args.model_type,
+                    test_aug=test_aug,
+                )
                 pred = pred[:, :, padding[0][0]:-padding[0][1], padding[1][0]:-padding[1][1]]
                 # Pred shape is torch.Size([1, 3, 1024, 1536])
                 pred_gave = torch.zeros_like(pred)
@@ -275,17 +291,17 @@ def main(parser):
     print('Images saved in', save_path)
 
 
-def zip_results(save_path, save_path_images, save_path_avr):
+def zip_results(save_path, save_path_images, save_path_avr, zip_file_name='1315.zip'):
     # Compress the results as zip with the name 1315.zip
     # 1315 is the team id
-    zip_file_name = '1315.zip'
     zip_file_path = save_path / zip_file_name
     zip_folders([save_path_images, save_path_avr], zip_file_path)
     print(f'Zipped results to {zip_file_path}')
 
 
-def combine_results():
-    save_path = Path('./predictions')
+def combine_results(save_path):
+    if isinstance(save_path, str):
+        save_path = Path(save_path)
     av_images = save_path / 'av'
     bv_images = save_path / 'bv'
     save_path_12 = save_path / 'Task1_2'
@@ -315,6 +331,6 @@ if __name__ == '__main__':
     elif args.option == 'predict':
         main(parser)
     elif args.option == 'combine':
-        combine_results()
+        combine_results(Path('./predictions'))
     else:
         print('Please provide an option: --option predict or --option zip')
